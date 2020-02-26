@@ -14,7 +14,11 @@
   Then alert your name using dot notation.
 */
 
-//Code here
+var me = {
+  name: "Chin",
+  age: 44
+};
+alert(me.name);
 
 ////////// PROBLEM 2 //////////
 
@@ -24,6 +28,14 @@
 */
 
 //Code here
+var favoriteThings = {
+  band: "Backstreet Boys",
+  food: "Cheese Burger",
+  person: "Martin Luther King Jr",
+  book: "The Bible",
+  movie: "Matrix",
+  holiday: "Christmas"
+};
 
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car
@@ -69,12 +81,12 @@ Instead, console.log your whole backPack object and then check out the console.
 
 // Do not edit the code below.
 var user2 = {
-  name: 'Bryan',
+  name: "Bryan",
   age: 24,
-  pwHash: 'U+Ldlngx2BYQk',
-  email: 'BryanSmith33@gmail.com',
-  birthday: '05/02/1990',
-  username: 'bryansmith33'
+  pwHash: "U+Ldlngx2BYQk",
+  email: "BryanSmith33@gmail.com",
+  birthday: "05/02/1990",
+  username: "bryansmith33"
 };
 // Do not edit the code above.
 
